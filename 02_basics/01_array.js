@@ -24,13 +24,13 @@ const myArr2 = new Array(1,2,3)
 
 //SLICE , SPLICE
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
-const myn1 = myArr.slice(1, 3)
-console.log(myn1);
-console.log("B", myArr);
+// const myn1 = myArr.slice(1, 3)//not going to work on og
+// console.log(myn1);
+// console.log("B", myArr);
 
 
-const myn2 = myArr.splice(1, 3)
-console.log("c",myArr);
-console.log(myn2);
+// const myn2 = myArr.splice(1, 3)//change og array
+// console.log("c",myArr);
+// console.log(myn2);
