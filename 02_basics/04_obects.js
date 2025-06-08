@@ -42,8 +42,34 @@ const users = [
     }
 ]
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
-console.log((Object.keys(tinderUser)));//o/p key
-console.log((Object.values(tinderUser)))//o/p values
+// console.log((Object.keys(tinderUser)));//o/p key
+// console.log((Object.values(tinderUser)))//o/p values
+
+
+//Destructuring
+
+const course = {
+    coursename : "js in hindi",
+    price : "100",
+    courseinstructure : "gukeshchacha"
+}
+
+//course.courseinstructure
+
+const{courseinstructure:instructor} = course
+
+//console.log(courseinstructure);
+console.log(instructor);
+
+
+//Json syntax(api)
+// {
+//     "name" : "kaushal"
+//     "coursename" : "jujujuju"
+//     "price" : "grew"
+// }
+
+
