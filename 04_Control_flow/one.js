@@ -12,7 +12,7 @@
 // !== 
 // logical operator && checks and compare two condition are two
 //  for more than two const we have to wite more &&
-// logical operator || for or condition
+// logical|| for or condition
 
 //++if++\\//true then executed , false not execute
 
