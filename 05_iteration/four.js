@@ -1,26 +1,17 @@
-// const myObject = {
-//     py : 'python',
-//     js : 'javascript',
-//     rb: 'ruby'
-// }
+const myObject = {
+    js: 'javascript',
+    py: 'python',
+    cpp: 'c++'
+}
 
-// for (const key in myObject) {
-//    console.log(key);//py,js , rb
-//     console.log(myObject[key]);
-//     /*py
-// python
-// js
-// javascript
-// rb
-// ruby*/
-//         console.log(`${key} for ${myObject[key]}`);
-// }
+for (const key in myObject) {
+    //console.log(`${key} shortcuut for ${myObject[key]}`);
+}
 
-
-// const programming = ['js','python']
-
-// for(const key in programming){
-//     console.log(programming);
+const programming = ["cpp" , "js", "py"]
+for (const key in programming) {
+    //console.log(key);// isme index vno. print honge keval jabki
+    //console.log(programming[key]);//isme actual print hongr
     
-// }
+}
 
