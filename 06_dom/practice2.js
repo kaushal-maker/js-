@@ -7,7 +7,7 @@ form.addEventListener('submit', function (e) {
 
   const weight = parseInt(document.querySelector('#weight').value); //weight ki value
 
-  const resulte = document.querySelector('#results').value;
+  const results = document.querySelector('#results');
 
   if (height === ' ' || height < 0 || isNaN(height)) {
     results.innerHTML = `please give valid height ${height}`;
@@ -18,6 +18,12 @@ form.addEventListener('submit', function (e) {
 
     // show the result
 
-    results.innerHTML = `<span>${bmi}</span>`;
+    if (bmi < 18.6) {
+      results.innerHTML = `${bmi} you are uw`;
+    } else if (bmi <= 24.9) {
+      results.innerHTML = `${bmi} you are fit`;
+    } else {
+      results.innerHTML = `${bmi} you are mota`;
+    }
   }
 });
